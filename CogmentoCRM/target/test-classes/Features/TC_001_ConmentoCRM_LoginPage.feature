@@ -18,3 +18,11 @@ Feature: Test CogmentoCRM Application
       | Shloka  | Gupta   | On Hold  |
      
     And user click on save button
+    
+    Scenario: Validate company page Functionality
+    
+    Given user click on company Link 
+    And user click on company createe button
+    * enter company details "HSBC","hsbc@gmail.com","Pune" and "hsbc123@yahoo.com"
+    Then user click on comSave Button
+    

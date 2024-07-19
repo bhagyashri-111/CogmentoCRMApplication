@@ -1,0 +1,20 @@
+package RunnerTest;
+
+
+@RunWith(Cucumber.class)
+CucumberOptions(
+		
+		fearures= {"src/test/java/Features"},
+		glue="Steps",
+		dryRun=false
+		
+		
+		)
+
+
+
+
+
+public class TestRunner {
+
+}
